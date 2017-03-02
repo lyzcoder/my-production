@@ -1,0 +1,51 @@
+.main-wrap{margin: 0 auto;margin-bottom: 20px;overflow: hidden;}
+.path{height:35px;background: #E7E7E7;line-height: 35px;}
+.path b{background: url(../images/home.jpg) no-repeat left center;padding-left: 20px;}
+.main-left{width: 210px;background: #fff;}
+.title{text-align: center;background: url(../images/directorybg.jpg) no-repeat;line-height: 32px;color: #fff;}
+.directory ul {border: 1px solid #e2d5bc;border-top: none;background: #faf4ea;
+padding: 0 40px;line-height: 26px;}
+.new-realse{width: 210px;overflow: hidden;margin-top:5px ;}
+.new-realse dl{border: 1px solid #e6e6e6;}
+.new-realse dl dd{height: 30px;line-height: 30px;border-bottom: 1px solid #ccc;}
+.new-realse dl dd span{color: #cc0048;font-weight: bold;padding:0 5px;}
+.recommend{margin-top:5px ;}
+.recommend img{width: 100px;height:40px;border: 1px solid #ccc;margin:2px 0;}
+
+
+.main-right{width: 980px;background: #fff;position: relative;z-index: 10;overflow: hidden;}
+.filter p{height: 35px;padding: 0 10px;line-height: 35px;border: 2px solid #d1ccc7;
+color: #806f66;}
+.filter p span{cursor:pointer}
+.sort{height: 40px;line-height: 40px;width: 978px;border: 1px solid #d1ccc7;border-top:none;}
+.sort h3{width: 80px;float: left;font-weight:normal;background: #ededed;padding: 0 10px;color: #806f66;}
+.sort li{float:left;margin: 0 20px;}
+.sort li a{color: #806f66;}
+.sort li a:hover{background: #f4e6cc;}
+
+/*商品排序*/
+.select{background: #faf4ea;border: solid #d4d4d4;border-width: 2px 1px 1px 1px;height: 18px;margin-top: 6px;line-height: 18px;padding: 11px 10px;color: #333;}
+.select a{padding:3px 10px;color: #806f66;color: #c4161c;border: 1px solid #ccc;margin: 2px;}
+.select .active{background: #c4161c;color: #fff;}
+
+.commoditylist{border: 1px solid #d4d4d4;border-top: none;padding: 10px; line-height: 24px;
+width: 958px;}
+.pro-pic img{width: 170px;height: 200px; border: 1px solid #e7e7e7;transition:0.6s;margin-top: 10px;}
+.product-item{overflow: hidden;}
+.product-item b{color: #ccc;text-decoration: line-through;}
+.product-item li{float: left;margin:5px 9px;}
+.product-item img:hover{border:1px solid rgba(255,0,0,.7);transform: scale(1.1) }
+.text{width:170px}
+.price span{color: #cf0f4c;font-weight: bold;}
+.num{color: #0066cc;}
+
+.Pagination{width: 600px;line-height: 20px;overflow: hidden;margin: 0 auto;margin-top: 20px;margin-bottom: 20px;clear: both;padding-left: 300px;}
+.Pagination a{margin-left: 5px; margin-right: 5px;border: #ccc 1px solid;padding: 2px 6px;}
+.Pagination a:hover{background-color: #b00;color:#fff;}
+.Pagination span{cursor:pointer;border: #ccc 1px solid;padding:2px 6px;
+margin-left: 5px; margin-right: 5px;}
+
+
+
+
+

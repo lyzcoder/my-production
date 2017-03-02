@@ -1,0 +1,73 @@
+/*头部样式*/
+body{background: #ededed;}
+.head-top { height: 32px; line-height: 32px; background-color: #eee;border-top: 1px solid #aaaaab;}
+.head-top .fl a{color:#ff6600}
+.head-top .fr .buy-num{color:#ff6600}
+.head-top .fr .car{border: 1px solid #ccc;padding:5px;border-radius: 3px;}
+.head-top .fr .car img{margin-top:8px;margin-right: 6px;}
+
+.head-cont{background: #fcfcfc;height:100px}
+.head-cont .logo{width:230px;height:70px;}
+.head-cont .search{margin-top:20px;margin-right:32px;width:666px;height:80px}
+.head-cont dl dt span{background: #d72427;color:#fff;padding:4px 14px;
+border-radius: 3px; }
+.head-cont dl dd{margin-top:2px}
+.head-cont dl .sou {width:666px;height:31px;}
+.head-cont dl .sou strong {border:2px solid #d72427;width:508px;height:27px;
+display:block;padding-top:4px;float:left}
+.head-cont dl .sou strong input{width:450px;height:27px;line-height: 27px;}
+.head-cont button{width:148px;height:30px;background: url(../images/bg1_07.png) repeat-x center;color:#fff;border-radius: 4px;float:right;margin-top:2px;border:none}
+.head-cont button b{width: 148px;word-spacing: 25px;font-weight: bold;font-size: 14px;}
+.head-cont .search-link{display:inline-block;margin-top:6px}
+/*头部结束*/
+/*导航*/
+.menu{background:url(../images/nav_15.png) repeat-x center;height:43px}
+.leftmenu{width:120px;background: #940206;height:41px;color:#fff;position:relative;line-height: 41px;text-align:center;font-size:14px;font-weight:bold;float:left;border-top:2px solid #f22c2c}
+.nav li a{color:#fff;float: left;font-size:14px;width:100px;height:39px;
+line-height:39px;border-right: 1px solid #9f1113;text-align: center;display: block;margin:2px 0;}
+.nav li a:hover{background: #420500;}
+.rightmenu{float:right;margin-right:80px;}
+.rightmenu dd{float:left;}
+.rightmenu dd div{width:22px;height:22px;margin-bottom:-4px;margin-left:5px;}
+.rightmenu dd a{color: #fff;margin: 0 6px;}
+.rightmenu dd a:hover{color: #ffde00;text-decoration: underline;}
+.rightmenu .hot{background: url(../images/hot.png) no-repeat center;}
+.rightmenu .new{background: url(../images/new.png) no-repeat center;}
+.rightmenu .diy{background: url(../images/diy.png) no-repeat center;}
+.rightmenu .go{background: url(../images/go.png) no-repeat center;}
+.space{position:relative;width:100%;margin:auto;height: 44px;background: #8d7e7e;border-top:1px solid #fff}
+.space div{background: #940206; height: 45px;width: 1200px;
+position:absolute;left:50%;top:-1px;margin-left:-600px;}
+/*导航结束*/
+
+/*底部开始*/
+.foot{width: 1200px;margin: 15px auto 0 auto; overflow:hidden;background-color: #fff;
+padding-top: 5px;}
+.friendlink{margin: 10px 10px 20px;padding: 0px 10px 0px 10px;
+line-height: 40px;border: #cccccc 1px solid}
+.friendlink b{font-weight: bold;}
+.friendlink a{margin-left: 12px;}
+.help-left{width: 240px; background: #f8f8f8;float: left;height: 193px;margin-left: 15px;}
+.help-left .phonenum{width: 164px;color: #999999;
+font-size: 12px;text-align: center;padding:24px 0 0 38px;}
+.help-left .num{color: #c40000;font-size: 20px;font-weight:bold;line-height: 30px;}
+
+.help-right{width: 920px;background: #f8f8f8;float: left;height: 168px;
+margin-left: 10px;padding-top: 25px;}
+.help-right ul{width: 100px;float: left;padding-left:45px;}
+.help-right ul li{width: 115px;line-height: 28px;}
+.help-right ul li h3{margin-left: -15px;padding-left:25px;font-size: 12px;}
+.help-right ul li .bg-pic1{background: url(../images/gu0.jpg) no-repeat left top;}
+.help-right ul li .bg-pic2{background: url(../images/gu1.jpg) no-repeat left top;}
+.help-right ul li .bg-pic3{background: url(../images/gu2.jpg) no-repeat left top;}
+.help-right ul li .bg-pic4{background: url(../images/gu3.jpg) no-repeat left top;}
+.help-right ul li .bg-pic5{background: url(../images/gu4.jpg) no-repeat left top;}
+.help-right ul li .bg-pic6{background: url(../images/wx.jpg) no-repeat left top;}
+
+.copyright{width: 1200px; margin: 0px auto;padding-bottom: 50px;clear: both;background: url(../images/pinpai9.gif) no-repeat bottom;}
+.copyright p{width: 170px;text-align: center;margin: 0 auto;padding-top:30px;line-height:30px;}
+/*底部结束*/
+
+
+
+

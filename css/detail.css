@@ -1,0 +1,62 @@
+.detail-head{width: 980px;height: 31px; line-height: 31px; background: #ab0c06;
+border-right: 1px solid #e5e5e5;color: #fff;}
+.detail-head b{margin-left: 10px;}
+.detail-head a{color: #fff;}
+
+/*放大镜开始*/
+.pic-detail{width: 960px; padding: 9px;position: relative;overflow: hidden;border-bottom: 1px solid #ccc;padding-bottom:10px;}
+.big-pic {position: relative; width: 300px; height: 300px;}
+.big-pic img{width: 300px; height: 300px;}
+.share-pic {position: absolute;top: 315px;left:50px}
+.share-pic img{width:100px;height:21px;cursor: pointer;margin: 5px;}
+.move-box {width:100px;height:100px; position: absolute; background-color: rgba(0,0,0,.5); cursor: move; left: 0; top: 0; display: none}
+
+.blowUp-pic { width: 300px; height: 300px; position: absolute;left: 320px; top: 10px; overflow-: hidden; border: 1px solid #ccc;overflow: hidden;display: none;}
+.blowUp-pic img { width: 600px; height: 600px; position: absolute; left: 0; top: 0;z-index: 2;}
+/*放大镜结束*/
+
+/*文字详情开始*/
+.text-detail{width: 610px; float: right;padding-right: 10px;position: relative;z-index: 1;}
+.text-detail ul{width: 610px;border-left: 1px solid #e5e5e5;overflow: hidden;padding-left: 10px;line-height: 25px;height:300px}
+.text-detail ul li h3{text-align: center;font-size:14px;height:30px;line-height:30px;border-bottom: 1px solid #ccc;font-weight:normal;margin-bottom:10px;}
+.text-detail ul li strong{color:#e22a25;font-size: 14px;}
+.text-detail .pro-type {border: 1px solid #cdcdcd;width:395px;background: #f8f8f8;padding:10px 10px 20px 10px;line-height: 30px;}
+.text-detail .pro-type span{display: block;}
+.text-detail .pro-type span i{color: #989998;letter-spacing: 2px;}
+.text-detail .pro-type span b{border: 1px solid #ccc;padding:2px 10px;margin:0 5px;cursor:pointer}
+#pro-num{width:77px;border:1px solid #ccc;margin:0 3px;padding-left:3px;}
+.text-detail .pro-type img{margin-top:5px;cursor: pointer;}
+.text-detail .special{color: #989998;}
+.text-detail .share{cursor: pointer;margin-top: 10px;}
+.text-detail .share img{margin:-3px 5px 10px}
+.more-link{width:240px;height:272px;border:1px solid #e6e6e6;position: absolute;bottom: 28px;left: 5px;
+background: #fefefe;display: none;}
+.more-link h4{margin-left: 10px;margin-bottom: 10px;height:30px;line-height: 30px;}
+.more-link dt{background:#f8f8f8;}
+.more-link dl dd{float:left;width:80px;height: 30px;padding-left: 20px;}
+.more-link dl dd img{margin-top: -2px;}
+/*文字详情结束*/
+
+/*人气组合开始*/
+.match{margin-top: 20px;width: 978px;border: 1px solid #e6e6e6;padding-bottom: 20px;}
+.match ul{width: 978px;height: 27px;border-bottom: 2px solid #C8C8C8;overflow: hidden;margin-bottom: 20px;}
+.match ul li{float: left;width: 84px;color: #333333;font-weight: bold;height: 27px;text-align: center;cursor: pointer;font-size: 14px;line-height: 27px;margin: 0px 0px 0 2px;}
+.match ul .active{background: url(../images/dzuhe.gif) no-repeat center;color:#fff}
+.match ol{overflow: hidden;}
+.match ol li{float: left;width: 154px;text-align: center;line-height: 22px;margin:0 10px;}
+.match ol li img{width:110px;height:150px;border: 1px solid #e7e7e7;}
+.match ol li img:hover{border:1px solid rgba(255,0,0,.5);}
+.match ol li p a{width:100px;display: block;}
+.match ol li p span{color: #b00;}
+
+
+
+
+
+
+
+
+
+
+
+

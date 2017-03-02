@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录注册</title>
+		<link href="css/base.css" rel="stylesheet" />
+		<link href="css/public.css" rel="stylesheet" />
+		<link href="css/login.css" rel="stylesheet"  />
+		
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<!--头部内容 -->
+    <div class="head-top">
+        <div class="wid-1200">
+        	<div class="fl">
+        		您好：欢迎光临天狗商城！[
+        		<a href="###">请登录</a>
+        		],新用户? [
+        		<a href="###">免费注册</a>
+        		] 
+        	</div>
+       
+            <div class="fr">
+            	<a class="car" href="shoppingcart.html?pId="><img src="images/1_03.png"/>购物车<span class="buy-num">0</span>件<img/ src="images/2_03.png"></a>
+                <a href="###">我的订单</a>
+                | <a href="###">网站地图</a>
+                | <a href="###">帮助中心</a>
+                | <a href="###">加入收藏</a>
+                | <a href="###">设为首页</a>
+            </div>
+        </div>
+    </div>
+<!--头部内容结束-->
+<!--搜索-->
+	<div class="head-cont">
+		<div class="wid-1200">
+			<div class="logo fl">
+				<a href="###"><img src="images/logo_03.png" /></a>
+			</div>
+		
+			<div class="search fr">
+				<dl>
+					<dt><span class="tag">商品</span></dt>
+					<dd class="sou">
+						<strong>
+						<img src="images/3_07.png" />
+						<input type="text" class="search-cont" placeholder="多搜搜，意外惊喜等你拿" maxlength="20"/>
+						</strong>
+						<button type="button"><b>搜 索</b></button>
+					</dd>
+					<dd class="search-link">
+						<a href="###">手机/钟表/家电/电脑/男装/女装/灯具/童装/儿童玩具/笔记本/平板/相机/鞋</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+<!--搜索结束-->
+<!--导航开始-->
+	<div class="menu">
+		<div class="wid-1200">
+			<div class="leftmenu">
+				所有商品分类
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="productlist1.html">手机数码</a></li>
+					<li><a href="###">礼品箱包</a></li>
+					<li><a href="###">厨具用品</a></li>
+					<li><a href="###">电脑办公</a></li>
+					<li><a href="###">服饰鞋帽</a></li>
+					<li><a href="###">个护化妆</a></li>
+					<li><a href="###">母婴用品</a></li>
+				</ul>
+			</div>
+			<!--右边菜单-->
+			<div class="rightmenu">
+				<ul>
+					<dl>
+						<dd>
+							<div class="hot"></div>
+							<a href="###">分销</a>
+						</dd>
+						<dd>
+							<div class="new"></div>
+							<a href="###">导航</a>
+						</dd>
+						<dd>
+							<div class="diy"></div>
+							<a href="###">团购</a>
+						</dd>
+						<dd>
+							<div class="go"></div>
+							<a href="###">充值</a>
+						</dd>
+					</dl>
+				</ul>
+			</div>
+			<!--右边菜单结束-->
+		</div>
+	</div>
+		
+	<div class="space"><div></div></div>
+<!--导航结束-->
+
+
+
+
+	<div id="login-wrap">
+	<!--注册开始-->
+		<div class="login-box fl">
+			<h4>新用户，请注册<span>(仅需30秒)</span></h4>
+			<form method="post">
+				<dl>
+					<dd class="email"><span>E-mail:</span><input type="text" id="e-mail" maxlength="25"/><strong>请输入邮箱</strong></dd>
+					<dd class="username"><span>用户名:</span><input type="text" id="username" maxlength="20"/><strong>4-20英文字符,数字,'_'的组合</strong></dd>
+					<dd class="psd"><span>密码:</span><input type="password" id="psd" maxlength="16"/><strong>请输入密码</strong></dd>
+					<dd class="repsd"><span>确认密码:</span><input type="password" id="repsd" maxlength="16"/><strong>请输入重复密码</strong></dd>
+					<dd class="code"><span>验证码:</span><input type="text" id="code" class="last" maxlength="4"/><strong>dkj2</strong><b>看不清，换一张</b></dd>
+					<dt><input type="button" id="login"/></dt>
+				</dl>
+			</form>
+		</div>
+	<!--注册结束-->
+	<!--登录开始-->
+		<div class="login-box fl">
+			<h4>老用户，请登录</h4>
+			<dl>
+				<dd><span>用户名:</span><input type="text" id="en-username" maxlength="20"/></dd>
+				<dd><span>密码:</span><input type="password" id="en-psd" maxlength="16"/><a href="###">忘了密码？</a></dd>
+				<dt><input type="button" id="entry"/></dt>
+			</dl>
+		</div>
+	<!--登录结束-->
+	</div>
+	
+	
+
+	<!--底部开始-->
+	<div class="foot">
+		<div class="friendlink">
+			<b>友情链接：</b>
+			<a target="_blank" href="http://www.jiancai0591.com">天狗网商城</a>
+			<a target="_blank" href="http://www.jxhscjc.com/">介休市弘盛昌家具建材装饰城</a>
+			<a target="_blank" href="http://www.jxbzmm.com">介休鸿宪居装饰公司</a>
+			<a target="_blank" href="http://www.jxjjjcw.com">介休家具建材网</a>
+			<a target="_blank" href="http://www.tgwlkj.com">天狗网络科技有限公司</a>
+			<a target="_blank" href="http://jxtgwl.sitekc.com/">天狗网络科技自助建站系统</a>
+			<a target="_blank" href="http://www.jxbgfd0591.com">天狗网上商城</a>
+			<a target="_blank" href="http://www.jxtthg.com">涛涛三味火锅餐饮有限公司</a>
+		</div>
+		
+		<div class="help-left">
+			<div class="phonenum">
+				<div class="phone"><img src="images/tel.jpg"/>&nbsp;客户服务热线</div>
+				<div class="num">
+					03547357121<br />13383445351
+				</div>
+				<span>(7*24小时服务)</span>
+			</div>
+		</div>
+		
+		
+		<div class="help-right">
+			<ul>
+				<li><h3 class="bg-pic1">关于我们</h3></li>
+				<li><a href="/p/aspx/help.aspx?id=57412" target="_blank">货源提供</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57413" target="_blank">联系客服</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57419" target="_blank">商城简介</a></li>
+			</ul>
+			<ul>
+				<li><h3 class="bg-pic2">售后服务</h3></li>
+				<li><a href="/p/aspx/help.aspx?id=57416" target="_blank">产品退换</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57423" target="_blank">订单查询</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57426" target="_blank">收货说明</a></li>
+				<li><a href="/p/aspx/help.aspx?id=69724" target="_blank">在线旺旺客服</a></li>
+			</ul>
+			<ul>
+				<li><h3 class="bg-pic3">支付宝</h3></li>
+				<li><a href="/p/aspx/help.aspx?id=57417" target="_blank">支付宝</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57418" target="_blank">货到付款</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57422" target="_blank">银行付款</a></li>
+			</ul>
+			<ul>
+				<li><h3 class="bg-pic4">购物指南</h3></li>
+				<li><a href="/p/aspx/help.aspx?id=57420" target="_blank">购物流程</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57421" target="_blank">常见问题</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57424" target="_blank">会员注册</a></li>
+			</ul>
+			<ul>
+				<li><h3 class="bg-pic5">配送方式</h3></li>
+				<li><a href="/p/aspx/help.aspx?id=57414" target="_blank">运费标准</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57415" target="_blank">配送政策</a></li>
+				<li><a href="/p/aspx/help.aspx?id=57425" target="_blank">订单说明</a></li>
+			</ul>
+			<ul>
+				<li><h3 class="bg-pic6">手机扫二维码登录</h3></li>
+				<a href="###"><img src="images/erwei_03.png" /></a>
+			</ul>
+		</div>
+		<div class="copyright">
+			 <p>天狗网络科技有限公司版权所有站长统计</p>
+		</div>
+	</div>
+	<!--底部结束-->
+	</body>
+</html>
